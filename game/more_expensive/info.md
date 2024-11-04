@@ -11,32 +11,27 @@ Este es un juego interactivo donde los jugadores deben adivinar cuál de dos obj
 - **Manejo de Resultados:** Si el jugador elige incorrectamente, se le muestra la respuesta correcta y se regresa a la pantalla de inicio.
 - **Soporte de Archivos:** Los datos de los objetos y sus precios se cargan desde un archivo Excel.
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
-La estructura de archivos es la siguiente:
-
+```plaintext
 mi_juego/
-│
 ├── data/
-│   └── objetos.xlsx           # Archivo Excel con datos de los objetos
-│
-├── images/                    # Carpeta para las imágenes de los objetos
+│   └── objetos.xlsx  # Archivo Excel con datos de los objetos
+├── images/  # Carpeta para las imágenes de los objetos
 │   ├── objeto1.png
 │   ├── objeto2.png
 │   ├── objeto3.png
-│   └── ...                    # Otras imágenes de objetos
-│
-├── sounds/                    # Carpeta para los sonidos (si decides incluir)
-│   ├── correcto.wav           # Sonido para respuesta correcta
-│   ├── incorrecto.wav         # Sonido para respuesta incorrecta
-│   └── fondo_musica.mp3       # Música de fondo (opcional)
-│
-├── src/                       # Carpeta para el código fuente del juego
-│   ├── main.py                # Archivo principal del juego
-│   ├── game.py                # Lógica principal del juego
-│   ├── ui.py                  # Manejo de la interfaz de usuario
-│   ├── data_handler.py        # Carga y manejo de datos (Excel)
-│   └── utils.py               # Funciones útiles (como la aleatoriedad)
-│
-└── README.md                  # Archivo README con información del proyecto
+│   └── ...  # Otras imágenes de objetos
+├── sounds/  # Carpeta para los sonidos (si decides incluir)
+│   ├── correcto.wav  # Sonido para respuesta correcta
+│   ├── incorrecto.wav  # Sonido para respuesta incorrecta
+│   └── fondo_musica.mp3  # Música de fondo (opcional)
+├── src/  # Carpeta para el código fuente del juego
+│   ├── main.py  # Archivo principal del juego
+│   ├── game.py  # Lógica principal del juego
+│   ├── ui.py  # Manejo de la interfaz de usuario
+│   ├── data_handler.py  # Carga y manejo de datos (Excel)
+│   └── utils.py  # Funciones útiles (como la aleatoriedad)
+└── README.md  # Archivo README con información del proyecto
+
 
